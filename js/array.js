@@ -30,6 +30,7 @@ for(let fruit of fruits) {
 // c. forEach
 fruits.forEach( (fruit) => console.log(fruit));
 
+console.clear();
 // 4, Addition, deletion, copy
 // push: add an item to the end
 fruits.push('🍓','🍑');
@@ -62,20 +63,21 @@ console.log(fruits);
 const fruits2 = ['🍇','🥑'];
 const newFruits = fruits.concat(fruits2);
 console.log(newFruits);
+console.clear();
 
 // 5. Searching
 // indexOf: find the index
-console.clear();
 console.log(fruits);
 console.log(fruits.indexOf('🍎'));
 console.log(fruits.indexOf('🍋'));
+console.clear()
 
 // includes
 console.log(fruits.includes('🍎'));
 console.log(fruits.includes('🍓'));
+console.clear()
 
 // lastIndexOf
-console.clear();
 fruits.push('🍎')
 console.log(fruits);
 console.log(fruits.indexOf('🍎'));

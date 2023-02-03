@@ -105,6 +105,7 @@ console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`);
 // object, real-life object, data structure
 const ellie  = { name: `ellie`, age: 20};
 ellie.age = 21;
+con
 
 // 5. Dynamic typing: dynamically typed language
 let text = `hello`;
