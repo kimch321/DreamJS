@@ -10,8 +10,8 @@
 
 // Q2. make an array out of a string
 // {
-//     const fruits = '🍎, 🥝, 🍌, 🍒';
-//     fruits.forEach((val) => console.log(val));
+     const fruits = '🍎, 🥝, 🍌, 🍒';
+     fruits.forEach( (val,fruits) => console.log(val) );
 // }
 
 // Q3. make this array look like this: [5, 4, 3, 2, 1]
