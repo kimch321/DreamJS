@@ -46,11 +46,9 @@ pickFruits().then(console.log);
 
 // 3. useful Promise APIs
 function pickAllFruits() {
-    return Promise.all([getApple(), getBanana()])
-        .then(fruits => fruits.join('+')
-        );
+    return Promise.all([getApple(), getBanana()]);
 }
-pickAllFruits().then(console.log);
+pickAllFruits(console.log)
 
 function pickOnlyOne() {
     return Promise.race([getApple(), getBanana()]);
